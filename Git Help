@@ -13,6 +13,10 @@ PART - B
 1) donwloading / cloing online github project to local machine
 
 
+PART - C
+Branching
+1) 
+-------------------------------------------------------------------------------------------------------------
 PART - A
 
 Connecting to your GIT account
@@ -39,10 +43,29 @@ connecting project with gitHub
 pushing code to github
 8) git push -u origin master
 
-
-
-
+-------------------------------------------------------------------------------------------------------------
 PART - B
 Adding new user
 New user will pull / clone github
-git clone https://github.com/sonawanesarvesh/learngit.git
+1) git clone https://github.com/sonawanesarvesh/learngit.git
+
+-------------------------------------------------------------------------------------------------------------
+PART - C
+
+1) get list of branches
+git branch
+
+2) create new branch
+git branch new_branch
+
+3) switch to new branch from master branch
+git checkout new_feature
+
+Now developer can work on this new branch
+
+suppose developer have added new file local projects folder
+now user want to commit this new file 
+
+now after committing new file, user need to merge new_feature branch with main branch
+
+git branch new_feature
