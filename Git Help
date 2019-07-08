@@ -1,6 +1,5 @@
 Download commander tool from - cmdr.net 
 
-
 PART - A
 1) Create github account
 2) Connect your local machine folder and files with Git
@@ -8,14 +7,22 @@ PART - A
 4) connecting project with gitHub server
 4) push code to server (commit)
 
-
 PART - B
 1) donwloading / cloing online github project to local machine
 
-
 PART - C
 Branching
-1) 
+1) create branch
+2) merge branch
+3) delete branch
+
+PART - D
+Logging
+1) git log
+2) git log --author sonawanesarvesh
+3) git log -i -G "added"    -----> this command will search for the text
+4) git log -i -G -p "added"  -----> this command will display text along with list of files committed
+
 -------------------------------------------------------------------------------------------------------------
 PART - A
 
@@ -69,3 +76,10 @@ now user want to commit this new file
 now after committing new file, user need to merge new_feature branch with main branch
 
 git branch new_feature
+
+Delete branch
+git branch -d new_feature
+
+-------------------------------------------------------------------------------------------------------------
+
+PART - D
