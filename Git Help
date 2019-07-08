@@ -1,0 +1,48 @@
+Download commander tool from - cmdr.net 
+
+
+PART - A
+1) Create github account
+2) Connect your local machine folder and files with Git
+3) before pushing code to server - add commit description
+4) connecting project with gitHub server
+4) push code to server (commit)
+
+
+PART - B
+1) donwloading / cloing online github project to local machine
+
+
+PART - A
+
+Connecting to your GIT account
+1) git config --global user.email "sonawanesarvesh@gmail.com"
+2) git config --global user.name "sonawanesarvesh"
+
+Connecting your project folder with GIT
+3) git init
+
+Git Status
+4) git status
+
+connecting all files to git
+5) git add -A
+
+Enter commit desciption (snapshot description)
+6) git commit -m "Added intex.html and custom.css"
+
+connecting project with gitHub
+(go to github - creare repository - learngit)
+
+7) git remote add origin https://github.com/sonawanesarvesh/learngit.git
+
+pushing code to github
+8) git push -u origin master
+
+
+
+
+PART - B
+Adding new user
+New user will pull / clone github
+git clone https://github.com/sonawanesarvesh/learngit.git
